@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/static/js/main.4dc78f48.chunk.js",
+    "main.js.map": "/static/js/main.4dc78f48.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.446af3eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.446af3eb.js.map",
+    "static/css/2.c268c7e3.chunk.css": "/static/css/2.c268c7e3.chunk.css",
+    "static/js/2.180847f6.chunk.js": "/static/js/2.180847f6.chunk.js",
+    "static/js/2.180847f6.chunk.js.map": "/static/js/2.180847f6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c268c7e3.chunk.css.map": "/static/css/2.c268c7e3.chunk.css.map",
+    "static/js/2.180847f6.chunk.js.LICENSE.txt": "/static/js/2.180847f6.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Bold.079ca05d.ttf": "/static/media/Montserrat-Bold.079ca05d.ttf",
+    "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/RobotoMono-Regular.418a8f9f.ttf": "/static/media/RobotoMono-Regular.418a8f9f.ttf",
+    "static/media/about-page-img.9c8789a0.png": "/static/media/about-page-img.9c8789a0.png",
+    "static/media/about-sec-img.dc869837.png": "/static/media/about-sec-img.dc869837.png",
+    "static/media/book_search.c3a32350.png": "/static/media/book_search.c3a32350.png",
+    "static/media/hero.67448392.png": "/static/media/hero.67448392.png",
+    "static/media/map.7d98ba39.png": "/static/media/map.7d98ba39.png",
+    "static/media/music_trivia.74ccffd3.png": "/static/media/music_trivia.74ccffd3.png",
+    "static/media/notetaker_app_preview.ff4aff02.png": "/static/media/notetaker_app_preview.ff4aff02.png",
+    "static/media/password_gen.341c491d.png": "/static/media/password_gen.341c491d.png",
+    "static/media/projectImg.771236e1.png": "/static/media/projectImg.771236e1.png",
+    "static/media/scroll-down-arrow.b013ca45.svg": "/static/media/scroll-down-arrow.b013ca45.svg",
+    "static/media/social-media-arrow.f5e093ce.svg": "/static/media/social-media-arrow.f5e093ce.svg",
+    "static/media/sql_database_editor.f92b31f5.png": "/static/media/sql_database_editor.f92b31f5.png",
+    "static/media/weather_dashboard.cc5a6362.png": "/static/media/weather_dashboard.cc5a6362.png",
+    "static/media/work_day.2f5327df.png": "/static/media/work_day.2f5327df.png",
+    "static/media/youtube_caption.238a359d.png": "/static/media/youtube_caption.238a359d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.446af3eb.js",
+    "static/css/2.c268c7e3.chunk.css",
+    "static/js/2.180847f6.chunk.js",
+    "static/js/main.4dc78f48.chunk.js"
+  ]
+}
