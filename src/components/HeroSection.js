@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/main-about.jpg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -156,16 +156,13 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hi, my name is</span>
-            <span className="hero__name">Jae</span>
+            <span className="hero__name">Jaewoo</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am a current student at UCLA, working towards my Bachelor's in
-              Statistics.
-            </PText>
+            <PText>Current Undergraduate at UCLA</PText>
             <Button btnText="my projects" btnLink="/projects" />
           </div>
           <div className="hero__social">

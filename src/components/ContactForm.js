@@ -45,7 +45,7 @@ export default function ContactForm() {
   const [message, setMessage] = useState('');
 
   const handleSubmit = async (e) => {
-    alert('The contact form is currently unavailable.');
+    alert('A business email has not yet been added.');
     // e.preventDefault();
     // setStatus("Sending...");
     // let details = {

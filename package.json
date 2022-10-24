@@ -1,7 +1,7 @@
 {
 	"name": "aboutme",
 	"version": "0.1.0",
-	"homepage": "https://jaehan.me/",
+	"homepage": "https://www.jaehan.me",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.2.0",

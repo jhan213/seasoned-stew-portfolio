@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/main-about.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -75,14 +75,14 @@ const AboutPageStyles = styled.div`
 
 const onButtonClick = () => {
   // using Java Script method to get PDF file
-  fetch('HanJae_Resume.pdf').then((response) => {
+  fetch('HanJaewoo_Resume.pdf').then((response) => {
     response.blob().then((blob) => {
       // Creating new object of PDF file
       const fileURL = window.URL.createObjectURL(blob);
       // Setting various property values
       const alink = document.createElement('a');
       alink.href = fileURL;
-      alink.download = 'HanJae_Resume.pdf';
+      alink.download = 'HanJaewoo_Resume.pdf';
       alink.click();
     });
   });
@@ -96,18 +96,19 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                <span>Jae Han</span>
+                <span>Jaewoo Han</span>
               </p>
-              <h2 className="about__heading">UCLA Undergrad</h2>
+              <h2 className="about__heading">UCLA Undergraduate</h2>
               <div className="about__info">
                 <PText>
-                  I graduated from Troy High School in 2017 and became a young
-                  Bruin upon being accepted into UCLA. I am expected to graduate
-                  in March 2023 with a Bachelor's degree in Statistics.
+                  After high school, I attended UCLA and decided to major in
+                  Applied Sciences, Statistics. During this time, I discovered
+                  my passion for programming and software engineering and
+                  development. I was able to create this website using React,
+                  HTML, CSS, and Javascript with the help of Shaif Arfan and the
+                  knowledge from UCLA Extension's Full Stack Coding Bootcamp.
                   <br /> <br />
-                  I took courses in math, statistics, and computer science
-                  throughout college and enjoy tackling and solving real-world
-                  problems with technology.
+                  Additional projects can found in the Projects tab.
                   <br /> <br />
                 </PText>
               </div>
@@ -129,25 +130,29 @@ export default function About() {
                 items={['Bachelors of Science, Statistics']}
               />
               <br /> <br />
-              <AboutInfoItem
-                title="School"
-                items={['UCLA Extension Program']}
-              />
+              <AboutInfoItem title="School" items={['UCLA Extension']} />
               <AboutInfoItem
                 title="Course"
-                items={['Full Stack Web Development Coding Bootcamp']}
+                items={['Full Stack Coding Bootcamp']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
-
               <AboutInfoItem
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'React', 'R', 'Python']}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'MySQL', 'GraphQL']}
+                items={[
+                  'Go',
+                  'Node',
+                  'Express',
+                  'MySQL',
+                  'MongoDB',
+                  'GraphQL',
+                  'AWS',
+                ]}
               />
             </div>
             {/* <div className="about__info__item">

@@ -14,21 +14,21 @@ const projects = [
     id: uuidv4(),
     name: 'Book Search Engine',
     desc:
-      'An application to search through millions of books and save favorites.',
+      'A website to search through Google Books API and save any favorites.',
     img: BookSearchImg,
     link: 'https://paperback-search-engine-9.herokuapp.com/',
   },
   {
     id: uuidv4(),
-    name: 'Youtube Transcript App',
-    desc: 'An application that converts Youtube videos to captions.',
+    name: 'Youtube Caption App',
+    desc: 'A NodeJS app that converts a Youtube video link to its captions.',
     img: YoutubeImg,
     link: 'https://github.com/jaehan213/time-youtube-caption-script',
   },
   {
     id: uuidv4(),
     name: 'NoteTaker',
-    desc: 'An application that allows to create and save notes.',
+    desc: 'A website where users can take and save notes.',
     img: NoteTakerImg,
     link: 'https://rocky-balboa-note-app.herokuapp.com/',
   },
@@ -36,15 +36,14 @@ const projects = [
     id: uuidv4(),
     name: 'Music Trivia',
     desc:
-      'An application that allows users to test their knowledge on music from current and past decades.',
+      'A website for users to test their knowledge on music from millions of songs (created with Spotify API).',
     img: MusicTriviaImg,
     link: 'https://jaehan213.github.io/silver-music-trivia/',
   },
   {
     id: uuidv4(),
     name: 'Database Manager',
-    desc:
-      'An application that allows a remote SQL database to be managed through the terminal.',
+    desc: 'An NodeJS app that manages a remote SQL database from the terminal.',
     img: SQLDBImg,
     link: 'https://github.com/jaehan213/sql-database-editor-in-terminal',
   },
@@ -52,7 +51,7 @@ const projects = [
     id: uuidv4(),
     name: 'Weather Dashboard',
     desc:
-      "An application that displays the forecast for today's date and the upcoming week for a particular city.",
+      "A website that displays today's weather forecast and the upcoming week's for a particular city (One Call API).",
     img: WeatherImg,
     link: 'https://jaehan213.github.io/widget-web-weather-dashboard/',
   },
@@ -60,14 +59,15 @@ const projects = [
     id: uuidv4(),
     name: 'Work Day Scheduler',
     desc:
-      'An application that allows users to log their tasks, duties, and meetings for the day.',
+      'A website where users can log their tasks, duties, and meetings for the day.',
     img: WorkDayImg,
     link: 'https://jaehan213.github.io/goat-work-day-scheduler/',
   },
   {
     id: uuidv4(),
     name: 'Password Generator',
-    desc: 'An application that allows users to generate random passwords.',
+    desc:
+      'A website where users can generate random passwords to meet different criteria.',
     img: PasswordGenImg,
     link: 'https://jaehan213.github.io/gold-web-password-generator/',
   },

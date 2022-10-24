@@ -28,8 +28,8 @@ export default function Button({
   click = {},
 }) {
   return (
-    <ButtonStyle outline={outline} className="button-wrapper">
-      <Link className="button" to={btnLink} onClick={click}>
+    <ButtonStyle outline={outline} className="button-wrapper" onClick={click}>
+      <Link className="button" to={btnLink}>
         {btnText}
       </Link>
     </ButtonStyle>

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.png';
+import AboutImg from '../assets/images/about-image-2.JPG';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -80,9 +80,9 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            My name is Jae. I am of South Korean heritage and grew up in the
-            States. I enjoy spending time with friends and family and also like
-            to watch and play basketball on my spare time.
+            I was born in Seoul, South Korea and was raised in Orange County,
+            California. These days, during my free time, I like to play pickup,
+            collect sneakers, and spend time with friends and family.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

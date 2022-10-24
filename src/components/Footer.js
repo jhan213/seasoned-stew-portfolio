@@ -57,7 +57,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Jae Han</h1>
+          <h1 className="footer__col1__title">Jaewoo Han</h1>
           {/* <PText></PText> */}
         </div>
         <div className="footer__col2">
@@ -136,7 +136,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>© 2022 - Jae Han | web cifar</PText>
+          <PText>© 2022 - Jaewoo Han | Shaif Arfan</PText>
         </div>
       </div>
     </FooterStyle>

@@ -63,6 +63,16 @@ export default function Projects() {
       setProjectsData(ProjectsInfo);
     }
   };
+  const captionStyle = {
+    padding: '2rem 0.5rem',
+    fontSize: '15px',
+  };
+
+  const captionStyle2 = {
+    padding: '0rem 0.5rem',
+    fontSize: '10px',
+  };
+
   return (
     <>
       <ProjectStyle>
@@ -82,6 +92,14 @@ export default function Projects() {
               <MdSearch className="searchIcon" />
             </form>
           </div>
+          <div className="projects_caption" style={captionStyle}>
+            Click on the images for the actual website link or Github
+            repository.
+          </div>
+          <div className="projects_caption" style={captionStyle2}>
+            (A link to my full Github profile can be found in the Footer or the
+            Homepage.)
+          </div>
           <div className="projects__allItems">
             {projectsData.map((item) => (
               <ProjectItem
@@ -89,6 +107,7 @@ export default function Projects() {
                 title={item.name}
                 desc={item.desc}
                 img={item.img}
+                link={item.link}
               />
             ))}
           </div>
